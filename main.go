@@ -2,13 +2,14 @@ package main
 
 import (
 	"bufio"
-	"dev/golang/pwd/ethereum"
 	"encoding/json"
 	"fmt"
 	"io"
 	"os"
 	"runtime"
 	"time"
+
+	"github.com/Eric-GreenComb/keystore/ethereum"
 )
 
 var (
